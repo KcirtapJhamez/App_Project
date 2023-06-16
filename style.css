@@ -1,0 +1,45 @@
+.logo img {
+  max-width:25%;
+  height: auto;
+  margin: 3%;
+  display: inline-block;
+  vertical-align: middle;
+  mix-blend-mode: color-burn;
+}
+.menu {
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) {
+  .codrops-header{
+    text-align: left;
+    background-color: transparent;
+  }
+  .codrops-header h1{
+    height: 100%;
+  }
+  .codrops-header a{
+    height: 100%;
+    text-align: right;
+  }
+  .wrapper{
+    width: 100%;
+  }
+  .stack-slider{
+    width: 100%;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu h1 {
+    margin: 0;
+  }
+  .menu a {
+    margin-left: 125px;
+    width: 10px;
+  }
+}
